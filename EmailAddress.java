@@ -8,12 +8,14 @@ class EmailAddress{
       System.out.println("What is your first name?");
       String firstName = key.nextLine();
       
+      //NITPICKY, but make sure you check punctuation on everything.
       System.out.println("What is your last name");
       String lastName = key.nextLine();
       
       System.out.println("What is your middle name");
       String middleName = key.nextLine();
       
+      //The slash in line 19 seems unnecessary.
       System.out.println("What is your birthday / (mm-dd-yyyy)");
       String birthday = key.nextLine();
       
@@ -26,3 +28,4 @@ class EmailAddress{
       System.out.println("*** This temporary password is very insecure. Please change it immediately! ***");
    }
 }
+// Great! 100/100
